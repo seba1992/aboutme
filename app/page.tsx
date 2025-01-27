@@ -2,10 +2,11 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="bg-gray-900 flex justify-center items-center bg-gray-200 w-full min-h-screen">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start max-w-md">
-        <h1 className="text-white text-xl mt-5">IndieSev / About me</h1>
-       
+    <div className="bg-gray-900 flex justify-center items-center bg-gray-200 w-full min-h-screen flex-col">
+      <div className="max-w-md text-left w-full">
+        <h1 className="text-white text-xl mt-5 mb-5"><b>{"<"}IndieSev{"/>"}</b>  About me</h1>
+      </div>
+      <main className="items-center sm:items-start max-w-md">   
        <div className="rounded-lg border-3 p-4 bg-gray-100">
         <div className="text-blue-500">26 de enero de 2025</div>
         <div className="font-bold text-xl">aijs.io + p5.js</div>
@@ -18,8 +19,7 @@ export default function Home() {
           height={200}
           priority
         />
-       </div>
-        
+       </div>  
       </main>
     </div>
   );
