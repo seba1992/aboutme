@@ -1,7 +1,7 @@
 {
   "name": "aboutme",
   "version": "0.1.0",
-  "homepage": "https://seba1992.github.io/aboutme",
+  "homepage": "https://seba1992.github.io/aboutme/",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",

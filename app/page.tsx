@@ -1,4 +1,5 @@
 import Image from "next/image";
+import imgEngranajes from "../public/images/engranajes_1.png"
 
 export default function Home() {
   return (
@@ -13,8 +14,8 @@ export default function Home() {
         <div>En ratos de ocio, suelo utilizar p5.js ya sea desde su propio editor o desde openProcessing, sin embargo, mientras realizaba un framework para realizar animaciones de forma práctica e intuitiva en python, en el que me terminé topando con una sintaxis similar a la usada por p5play.js, y volver a p5play, me términe topando con aijs, que no es otra cosa más que un editor cuasi IDE con un chat ai integrado. Les dejo una mini muestra de una animación que realicé a modo de prueba... <b>Continuará</b></div>
         <Image
           className="dark:invert mx-auto rounded-lg m-5"
-          src="/images/engranajes_1.png"
-          alt="Engranajes captura aijs.io"
+          src={imgEngranajes}
+          alt="Engranajes captura aijs.io v2"
           width={300}
           height={200}
           priority
