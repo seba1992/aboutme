@@ -20,8 +20,8 @@ export default function Article ({ date,title, description, image }: ArticleProp
                     className="dark:invert mx-auto rounded-lg m-5"
                     src={image.src}
                     alt={title}
-                    width={300}
-                    height={200}
+                    width={400}
+                    height={250}
                     priority
                 />
             </div>
